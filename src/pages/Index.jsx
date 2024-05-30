@@ -8,42 +8,42 @@ const Index = () => {
         {/* Header Section */}
         <Box bg="teal.600" color="white" py={20} textAlign="center">
           <Heading as="h1" size="2xl">
-            Virtual Payroll Assistance
+            Welcome to PaySorce
           </Heading>
-          <Text fontSize="xl">Expert Payroll Solutions for Accounting Firms</Text>
+          <Text fontSize="xl">Your Trusted Partner in Payroll Solutions</Text>
         </Box>
 
         {/* About Section */}
         <Box py={10} px={4}>
           <Heading as="h2" size="xl" mb={4}>
-            About Us
+            Why Choose PaySorce?
           </Heading>
-          <Text fontSize="lg">We provide top-notch virtual payroll assistance tailored specifically for accounting firms. Our team of experts ensures that your payroll processes are smooth, accurate, and compliant with all regulations.</Text>
+          <Text fontSize="lg">At PaySorce, we specialize in providing comprehensive payroll solutions that are tailored to meet the unique needs of your business. Our team of experts is dedicated to ensuring your payroll processes are efficient, accurate, and compliant with all regulations.</Text>
         </Box>
 
         {/* Services Section */}
         <Box py={10} px={4} bg="gray.100">
           <Heading as="h2" size="xl" mb={4}>
-            Our Services
+            What We Offer
           </Heading>
           <VStack spacing={4} align="stretch">
             <Box bg="white" p={4} borderRadius="md" boxShadow="md">
               <Heading as="h3" size="lg">
-                Payroll Processing
+                Comprehensive Payroll Services
               </Heading>
-              <Text>Efficient and accurate payroll processing to save you time and reduce errors.</Text>
+              <Text>Our payroll services are designed to save you time and reduce errors, ensuring your employees are paid accurately and on time.</Text>
             </Box>
             <Box bg="white" p={4} borderRadius="md" boxShadow="md">
               <Heading as="h3" size="lg">
-                Tax Filing
+                Tax Compliance
               </Heading>
-              <Text>Comprehensive tax filing services to ensure compliance and avoid penalties.</Text>
+              <Text>We provide thorough tax filing services to ensure your business remains compliant with all relevant tax regulations.</Text>
             </Box>
             <Box bg="white" p={4} borderRadius="md" boxShadow="md">
               <Heading as="h3" size="lg">
-                Employee Management
+                HR Solutions
               </Heading>
-              <Text>Streamlined employee management solutions to handle onboarding, benefits, and more.</Text>
+              <Text>Our HR solutions help you manage employee onboarding, benefits, and other HR tasks efficiently.</Text>
             </Box>
           </VStack>
         </Box>
