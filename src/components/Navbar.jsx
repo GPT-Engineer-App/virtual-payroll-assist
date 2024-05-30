@@ -8,6 +8,18 @@ function Navbar() {
         <Link as={RouterLink} to="/" color="white" fontWeight="bold">
           Home
         </Link>
+        <Link as={RouterLink} to="/services" color="white" fontWeight="bold">
+          Services
+        </Link>
+        <Link as={RouterLink} to="/about" color="white" fontWeight="bold">
+          About Us
+        </Link>
+        <Link as={RouterLink} to="/contact" color="white" fontWeight="bold">
+          Contact
+        </Link>
+        <Link as={RouterLink} to="/careers" color="white" fontWeight="bold">
+          Careers
+        </Link>
       </Flex>
     </Box>
   );
