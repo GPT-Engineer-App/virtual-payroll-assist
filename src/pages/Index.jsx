@@ -1,4 +1,4 @@
-import { Container, Text, VStack, Box, Heading, Button, IconButton, Image, HStack } from "@chakra-ui/react";
+import { Container, Text, VStack, Box, Heading, IconButton, Image, HStack } from "@chakra-ui/react";
 import { FaPhone, FaEnvelope, FaLinkedin } from "react-icons/fa";
 
 const Index = () => {
@@ -6,7 +6,7 @@ const Index = () => {
     <Container maxW="container.xl" p={4}>
       <VStack spacing={8} align="stretch">
         {/* Header Section */}
-        <Box bg="teal.500" color="white" py={10} textAlign="center">
+        <Box bg="teal.600" color="white" py={20} textAlign="center">
           <Heading as="h1" size="2xl">
             Virtual Payroll Assistance
           </Heading>
@@ -14,7 +14,7 @@ const Index = () => {
         </Box>
 
         {/* About Section */}
-        <Box py={10}>
+        <Box py={10} px={4}>
           <Heading as="h2" size="xl" mb={4}>
             About Us
           </Heading>
@@ -22,24 +22,24 @@ const Index = () => {
         </Box>
 
         {/* Services Section */}
-        <Box py={10} bg="gray.100">
+        <Box py={10} px={4} bg="gray.100">
           <Heading as="h2" size="xl" mb={4}>
             Our Services
           </Heading>
           <VStack spacing={4} align="stretch">
-            <Box>
+            <Box bg="white" p={4} borderRadius="md" boxShadow="md">
               <Heading as="h3" size="lg">
                 Payroll Processing
               </Heading>
               <Text>Efficient and accurate payroll processing to save you time and reduce errors.</Text>
             </Box>
-            <Box>
+            <Box bg="white" p={4} borderRadius="md" boxShadow="md">
               <Heading as="h3" size="lg">
                 Tax Filing
               </Heading>
               <Text>Comprehensive tax filing services to ensure compliance and avoid penalties.</Text>
             </Box>
-            <Box>
+            <Box bg="white" p={4} borderRadius="md" boxShadow="md">
               <Heading as="h3" size="lg">
                 Employee Management
               </Heading>
@@ -49,7 +49,7 @@ const Index = () => {
         </Box>
 
         {/* Contact Section */}
-        <Box py={10}>
+        <Box py={10} px={4}>
           <Heading as="h2" size="xl" mb={4}>
             Contact Us
           </Heading>
@@ -64,8 +64,8 @@ const Index = () => {
         </Box>
 
         {/* Footer Section */}
-        <Box bg="teal.500" color="white" py={4} textAlign="center">
-          <Text>&copy; {new Date().getFullYear()} Virtual Payroll Assistance. All rights reserved.</Text>
+        <Box bg="teal.600" color="white" py={4} textAlign="center">
+          <Text>&copy; 2024 Virtual Payroll Assistance. All rights reserved.</Text>
         </Box>
       </VStack>
     </Container>
